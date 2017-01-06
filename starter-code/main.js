@@ -3,3 +3,27 @@ var cardOne = "queen";
 var cardTwo = "king";
 var cardThree = "queen";
 var cardFour = "king";
+
+if (cardOne === cardTwo) {
+	alert("Sorry, try again.");
+}
+
+else if (cardOne === cardFour) {
+	alert("Sorry, try again.");
+}
+
+else if (cardOne === cardThree) {
+	alert("You have found a match!");
+}
+
+else if (cardTwo === cardThree) {
+	alert("Sorry, try again.");
+}
+
+else if (cardTwo === cardFour) {
+	alert("You have found a match!");
+}
+
+else if (cardThree === cardFour) {
+	alert("Sorry, try again.");
+}
